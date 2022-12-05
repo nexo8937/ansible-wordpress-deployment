@@ -1,0 +1,6 @@
+- name: install wordpress
+  hosts: all
+  roles:
+    - mysql_php_packgages 
+    - apache
+    - wordpress
