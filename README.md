@@ -1,17 +1,20 @@
 # wordpress-deployment
 if you want to install wordpress with ansible then I can show You how to do it
 
-first You have to create directory "roles" in Your ansible directory
-clone two repositories "apache-deployment-role" and "mysql_php_packgages-role"   
-links bellow
-https://github.com/nexo8937/mysql_php_packgages-role.git
-https://github.com/nexo8937/apache-deployment-role.git
+first clone this repo and save wordpress.yml file in Your ansible directory
 
-es masy Hayeren dzevakerpem))
-et rolery vor clone es arel, mejnery papkeq ka et papkeqy copy ara kam mv ara en role papki mej vory ansibli directoriayum sarqel es nor
+after You have to run these commands
 
-and last thing You have to write
+ansible-galaxy install git+https://github.com/nexo8937/ansible-role-mysql-php-packgages.git
+ 
+ansible-galaxy install git+https://github.com/nexo8937/ansible-role-apache-deployment.git
+
+ansible-galaxy install git+https://github.com/nexo8937/ansible-role-wordpress-deployment.git
+
+
+after that You can run playbook
 
 ansible-playbook wordpress.yml
 
+thank You
 
