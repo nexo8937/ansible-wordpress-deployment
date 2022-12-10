@@ -1,0 +1,4 @@
+- src: https://github.com/nexo8937/ansible-role-apache.git
+- src: https://github.com/nexo8937/ansible-role-mysql.git
+- src: https://github.com/nexo8937/ansible-role-wordpress.git
+- src: https://github.com/nexo8937/ansible-role-php.git
