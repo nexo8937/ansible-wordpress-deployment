@@ -2,5 +2,5 @@
   hosts: all
   roles:
     - ansible-role-mysql-php-packgages
-    - ansible-role-apache-deployment
-    - ansible-role-wordpress-deployment
+    - ansible-role-apache
+    - ansible-role-wordpress
