@@ -1,6 +1,7 @@
 - name: install wordpress
   hosts: all
   roles:
-    - ansible-role-mysql-php-packgages
+    - ansible-role-mysql
+    - ansible-role-php
     - ansible-role-apache
     - ansible-role-wordpress

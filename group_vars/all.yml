@@ -1,0 +1,15 @@
+#==========================mysql=================================
+mysql_root_password:   exoexoexo
+
+mysql_user_name:       exo
+mysql_user_password:   exoexoexo
+
+#========================wordpress_db============================
+wordpress_db_name:     wordpress
+
+wp_conf_file_dest:     /var/www/html/wordpress/wp-config.php
+
+#==========================apache=================================
+apache_conf_file:      /etc/apache2/sites-enabled/000-default.conf
+
+apache_root_document:  /var/www/html
